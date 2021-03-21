@@ -1,0 +1,12 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thiagoos16/github-explorer.git",
+  "author": "thiagoos16 <tos@icomp.ufam.edu.br>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
