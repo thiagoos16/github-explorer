@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // add funcionalidades ele ajuda a lidar com tipagens que antes a gente não teria
+    "allowJs": true, //permite tanto js quanto ts files
+    "jsx": "react-jsx", //utiliza o jsx do react, para entender html no js
+    "noEmit": true,
+    "strict": true, // modo strict do js para lhe dar com erros
+    "moduleResolution": "node", // permite import de jsons files
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"] // onde o código da aplication está
+}
